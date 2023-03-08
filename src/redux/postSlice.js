@@ -12,7 +12,7 @@ export const postApi = createApi({
         }),
         getPostById: builder.query({
             query: (id) => `posts/${id}`,
-        })
+        }),
         //getAllPosts litterally gets every id and prints it onto the screen, getPostById prints the api onto the screen via id number
     })
     //builder is used to build to api url
